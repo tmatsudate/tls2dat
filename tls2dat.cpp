@@ -73,6 +73,9 @@ int main(int argc,char *argv[]){
     data.close();
     ofs.close();
     
+    int v;
+    cout << v << endl;
+    
     cout << input.c_str() << " " << ntot << " " << ndead << " " << npass << " " << nspot  << endl;
     //cout << "col " << ndead << endl;
     //cout << "pass " << npass << endl;
